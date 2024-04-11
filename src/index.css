@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #f32e88;
+}
+
+
+/* #3b424c  #2a2e31*/
+
+.box{
+    background-color: #3b424c ;
+    width: 60%;
+    height: 70vh;
+    overflow:auto;
+    border-radius: 35px;
+}
+.text{
+    color: white;
+    font-size: 24px;
+    margin-left: 15px;
+    position: relative;
+    top: -9px;
+}
+.in{
+    width: 82%;
+    height: 7vh;
+    margin-left: 5%;
+    background-color: #2a2e31;
+    padding-left: 10px;
+    color: white;
+    border-radius: 25px 0 0 25px;
+    
+}
+.b1{
+    background-color: #f32e88;
+    margin-left: 5px;
+    width: 7%;
+    height: 7vh;
+    margin-right: 5%;
+    border-radius:  0 25px 25px 0 ;
+}
+
+.todo{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+.editt{
+    margin-right: 10px;
+}
+
+.checkbox {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox__input {
+    position: absolute;
+    width: 1.375em;
+    height: 1.375em;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkbox__input:checked + .checkbox__icon .tick {
+    stroke-dashoffset: 0;
+  }
+  
+  .checkbox__icon {
+    width: 1.375em;
+    height: 1.375em;
+    flex-shrink: 0;
+    overflow: visible;
+  }
+  
+  .checkbox__icon .tick {
+    stroke-dasharray: 20px;
+    stroke-dashoffset: 20px;
+    transition: stroke-dashoffset .2s ease-out;
+  }
+  
+  .checkbox__label {
+    margin-left: 0.5em;
+  }
+  
