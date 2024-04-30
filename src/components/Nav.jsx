@@ -1,11 +1,11 @@
-import React from 'react'
-import "./Nav.css"
+import React from 'react';
+
 const Nav = () => {
   return (
-    <div className='Navv'>
-      <h1 className='text-white mx-auto justify-center flex text1'>Todo List :-</h1>
-    </div>
-  )
-}
+    <nav className="py-6 bg-gray-800 text-white text-center text-3xl font-bold">
+      Todo List
+    </nav>
+  );
+};
 
-export default Nav
+export default Nav;
